@@ -2,7 +2,8 @@
     This software allows you to encrypt a video by converting it into another video after creating a mask which alters all the bits of the file's binary with XOR.
     You start with an origin video to be encrypted, then you get a destiny video which is what the origin video will be transformed into, but to transform the
     origin video into the destiny video you need to know how to change the bits of the binary of the file, that is what the mask is for, the mask will be a binary
-    which when combined with the origin video by XOR operations will generate the destiny video, and you can undo the operation at any time.
+    which when combined with the origin video by XOR operations will generate the destiny video, and you can undo the operation at any time. Make sure the destiny
+    video is at least as long as the origin video, it can't be any shorter.
 */
 
 // import the tools we need
